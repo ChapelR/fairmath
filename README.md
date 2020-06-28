@@ -1,5 +1,7 @@
 # fairmath
 
+[![Build Status](https://travis-ci.org/ChapelR/fairmath.svg?branch=master)](https://travis-ci.org/ChapelR/fairmath) [![Coverage Status](https://coveralls.io/repos/github/ChapelR/fairmath/badge.svg?branch=master)](https://coveralls.io/github/ChapelR/fairmath?branch=master) [![NPM](https://nodei.co/npm/fairmath.png?mini=true)](https://npmjs.org/package/fairmath)
+
 An implementation of [ChoiceScript's fairmath system](https://choicescriptdev.fandom.com/wiki/Arithmetic_operators#Fairmath) for the web and node.
 
 ## Install

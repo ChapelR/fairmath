@@ -1,13 +1,13 @@
 {
   "name": "fairmath",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A fairmath implementation for node and the web.",
   "main": "fairmath.js",
   "scripts": {
     "test": "mocha test.js",
     "test-travis": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec ./test.js",
     "lint": "jshint dice.js",
-    "build": "node_modules\\.bin\\terser -c -m -o dist/fairmath.min.js fairmath.js"
+    "build": "terser -c -m -o dist/fairmath.min.js fairmath.js"
   },
   "keywords": [
     "fairmath"
@@ -20,5 +20,14 @@
     "jshint": "^2.10.2",
     "mocha": "^6.2.0",
     "terser": "^4.8.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChapelR/fairmath.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChapelR/fairmath/issues"
+  },
+  "homepage": "https://github.com/ChapelR/fairmath#readme"
 }
