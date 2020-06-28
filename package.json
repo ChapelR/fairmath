@@ -1,6 +1,6 @@
 {
   "name": "fairmath",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A fairmath implementation for node and the web.",
   "main": "fairmath.js",
   "scripts": {
@@ -9,6 +9,9 @@
     "lint": "jshint dice.js",
     "build": "terser -c -m -o dist/fairmath.min.js fairmath.js"
   },
+  "files": [
+    "fairmath.js"
+  ],
   "keywords": [
     "fairmath"
   ],
